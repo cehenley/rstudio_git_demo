@@ -18,3 +18,6 @@ summary(mtcars)
 
 #plot mpg to hp
 plot(mtcars$mpg,mtcars$hp)
+
+#create linear model 
+mpg_to_hp <- lm(mpg~hp, data = mtcars)
