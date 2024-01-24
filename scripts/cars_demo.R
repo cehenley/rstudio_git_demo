@@ -21,3 +21,9 @@ plot(mtcars$mpg,mtcars$hp)
 
 #create linear model 
 mpg_to_hp <- lm(mpg~hp, data = mtcars)
+
+#redraw plot
+mpg_to_hp <- plot(mtcars$mp ~ mtcars$hp)
+
+#add abline to plot
+abline(mpg_to_hp)
